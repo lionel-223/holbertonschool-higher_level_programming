@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """A Square class for practicing object-oriented programming."""
 
+
 class Square:
     """This is a Square class that defines a square."""
-    
+
     def __init__(self, size=0, position=(0, 0)):
         """Initializes the square and the position with given size."""
         self.size = size
